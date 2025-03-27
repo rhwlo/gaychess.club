@@ -1,0 +1,115 @@
+<html>
+
+<head>
+  <title>Oakland Gay Chess Club</title>
+  <style>
+    body {
+      font-family: "Helvetica";
+    }
+
+    #banner img {
+      width: 100%;
+    }
+
+
+    #container {
+      display: grid;
+      grid-template-columns: 1fr;
+      padding-left: 12%;
+      padding-right: 12%;
+    }
+
+    #content {
+      padding-left: 1em;
+      padding-right: 1em;
+      background-color: black;
+      color: whitesmoke;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-items: center;
+      column-gap: 1em;
+    }
+
+    #content .header {
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+
+    #content .bit {
+      justify-self: stretch;
+    }
+
+    #content .bit h2 {
+      background-color: whitesmoke;
+      color: black;
+      padding-top: 0.2em;
+      text-align: center;
+      width: 100%;
+    }
+
+    #content .bit p,
+    #content .bit ul {
+      padding-left: 10%;
+    }
+
+    #content .dates li span {
+      background-color: none;
+      display: inline-block;
+      border: solid 2px black;
+      padding-left: 3px;
+      padding-right: 3px;
+      padding-top: 2px;
+      border-radius: 2px;
+    }
+
+    #content .dates li:first-child span {
+      background-color: hotpink;
+      display: inline-block;
+      border: solid 2px hotpink;
+      padding-left: 3px;
+      padding-right: 3px;
+      padding-top: 2px;
+      border-radius: 2px;
+    }
+
+    .address p {
+      font-size: 16pt;
+      line-height: 110%;
+    }
+  </style>
+</head>
+
+<body>
+  <div id='container'>
+    <div id='banner'>
+      <img src='images/gay-chess-club-top-graphic.png'
+        alt='Chess pieces surrounding the text: Gay Chess Club, ABO Comix, 2520 Telegraph Ave., Oakland CA 94612; 2nd & 4th Fridays, 4:30-7:30pm'
+        title='Gay Chess Club is at ABO Comix, 2520 Telegraph Ave., Oakland CA 94612, every 2nd and 4th Friday from 4:30-7:30pm' />
+    </div>
+    <div id='content'>
+      <div class='header'>
+        <h1>Come to the next Oakland Gay Chess Club!</h1>
+      </div>
+      <div class="bit address">
+        <h2>where</h2>
+        <p>
+          A.B.O. Comix<br />
+          2520 Telegraph Ave.<br />
+          Oakland, CA 94612
+        </p>
+      </div>
+      <div class="bit dates">
+        <h2>when</h2>
+        <ul>
+          <li data-date="2025-03-28"><span>4:30&ndash;7:30 pm on Friday, March 28, 2025</span></li>
+          <li data-date="2025-04-11"><span>4:30&ndash;7:30 pm on Friday, April 11, 2025</span></li>
+          <li data-date="2025-04-25"><span>4:30&ndash;7:30 pm on Friday, April 25, 2025</span></li>
+          <li data-date="2025-05-09"><span>4:30&ndash;7:30 pm on Friday, May 9, 2025</span></li>
+          <li data-date="2025-05-23"><span>4:30&ndash;7:30 pm on Friday, May 23, 2025</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
